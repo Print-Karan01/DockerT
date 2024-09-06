@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
   // Using send function we send
   // response to the client
   // Here we are sending html
-  res.send("<h1>Hello form kunal</h1>");
+  res.send("<h1>kidda kunal</h1>");
 });
 
 // It configures the system to listen
