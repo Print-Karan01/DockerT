@@ -2,7 +2,7 @@
 FROM node:20
 
 # Set the working directory inside the container
-WORKDIR home/thind/Desktop/node.js/hello-world-node
+WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
